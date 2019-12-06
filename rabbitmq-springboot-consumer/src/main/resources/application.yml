@@ -1,0 +1,12 @@
+server:
+  port: 8011
+
+spring:
+  application:
+    name: rabbitmq-consumer
+  # rabbitmq配置参数
+  rabbitmq:
+    host: 10.143.228.215
+    port: 5672
+    username: admin
+    password: 123456
